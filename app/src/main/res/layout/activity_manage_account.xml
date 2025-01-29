@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="40sp">
+
+    <TextView
+        android:id="@+id/accountNameButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="180sp"
+        android:text="Account Name"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/accountIDocument"
+        android:layout_width="250dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="200sp"
+        android:padding="20dp"
+        android:text="Account Id"
+        android:textSize="25sp" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40sp"
+        android:layout_marginTop="40sp">
+        <TableRow>
+            <Button
+                android:id="@+id/buttonContactManagement"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="contactManagement" />
+            <Button
+                android:id="@+id/buttonSupportRequests"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/supportrequests" />
+        </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/buttonInvestmentFunds"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/investment_funds" />
+
+        <Button
+            android:id="@+id/buttonLoanRequest"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Loan Request" />
+
+        <Button
+            android:id="@+id/buttonManToDash"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Dashboard" />
+    </TableRow>
+    </TableLayout>
+
+</LinearLayout>

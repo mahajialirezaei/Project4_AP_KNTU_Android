@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/BankAppTheme"
+        tools:targetApi="31">
+
+        <activity android:name="ir.ac.kntu.project4.activities.MainActivity"
+            android:theme="@style/MainMenuTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.RegularUserActivity"
+            android:theme="@style/RegularTheme"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.SignUpActivity"
+            android:theme="@style/SignUpTheme"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.LoginActivity"
+            android:theme="@style/LoginTheme"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.DashboardActivity"
+            android:theme="@style/DashboardTheme"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.ContactsManagementActivity"
+            android:theme="@style/ContactsManagementTheme"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.ChargeAccountActivity"
+            android:theme="@style/ChargeAccountTheme"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.ManageAccountActivity"
+            android:theme="@style/ManageAccount"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.SupportRequestsActivity"
+            android:theme="@style/RequestMenuTheme"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.ShowRequestActivity"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.TransferMoneyActivity"
+            android:theme="@style/MoneyTransferMenuTheme"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.LoanMenuActivity"
+            android:theme="@style/LoanMenuTheme"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.LoanRequestActivity"
+            android:theme="@style/LoanRequestTheme"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.LoanManagementActivity"
+            android:theme="@style/LoanManagementTheme"
+            android:exported="true">
+        </activity>
+        <activity android:name="ir.ac.kntu.project4.activities.InvestmentFundsActivity"
+            android:theme="@style/InvestmentFundsMenuTheme"
+            android:exported="true">
+        </activity>
+    </application>
+
+</manifest>

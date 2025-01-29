@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/fundtodashboard"
+        android:layout_width="37dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/back"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_back"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="59sp"
+        android:layout_marginTop="200sp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/fundnameedittext"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Enter Fund Name" />
+
+        <EditText
+            android:id="@+id/fundamount"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter amount"/>
+
+        <EditText
+            android:id="@+id/fundmonth"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter month"
+            android:inputType="number"/>
+
+        <RadioGroup
+            android:id="@+id/fundTypeRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="57dp"
+                android:text="bonusfund" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="59dp"
+                android:text="savingfund" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/createFundButton"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:text="@string/create_new_fund" />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="39sp"
+            android:layout_marginBottom="20sp" />
+    </LinearLayout>
+</LinearLayout>

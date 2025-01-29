@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BlueButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="WhiteButtonTheme." parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/white_button_background</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="GrayButtonTheme." parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/gray_button_background</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

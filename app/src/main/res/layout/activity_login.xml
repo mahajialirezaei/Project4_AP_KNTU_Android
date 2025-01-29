@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/logToReg"
+        android:layout_width="43dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/back"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_back" />
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="269dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:hint="Phone Number" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="277dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/logInButton"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/signUpLink"
+        android:layout_width="130dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+
+        android:text="" />
+</LinearLayout>

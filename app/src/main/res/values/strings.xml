@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">project4</string>
+    <string name="back">backToReg</string>
+    <string name="charge_account">Charge Account</string>
+    <string name="account_management">Account Management</string>
+    <string name="investment_funds">Investment funds</string>
+    <string name="last_transactions">Last Transactions</string>
+    <string name="addcontact">AddContact</string>
+    <string name="showcontact">ShowContact</string>
+    <string name="editcontacts">EditContacts</string>
+    <string name="deletecontact">DeleteContact</string>
+    <string name="enter_your_last_name">Enter Your Last Name</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="name">name:</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="last_name">Last name:</string>
+    <string name="enter_your_phone_number">Enter Your Phone Number:</string>
+    <string name="supportrequests">SupportRequests</string>
+    <string name="contactinformation">contactinformation</string>
+    <string name="loanrequest">LoanRequest</string>
+    <string name="loanmanagement">loanManagement</string>
+    <string name="create_new_fund">Create New Fund</string>
+</resources>

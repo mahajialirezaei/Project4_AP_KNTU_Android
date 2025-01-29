@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="240sp"
+    android:layout_marginHorizontal="80sp">
+
+
+    <EditText
+        android:id="@+id/editTextEditName"
+        android:layout_width="match_parent"
+        android:layout_height="67sp"
+        android:autofillHints=""
+        android:hint="@string/enter_your_name"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/editTextEditLastName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:autofillHints=""
+        android:hint="@string/enter_your_last_name"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/editTextEditPhone"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:autofillHints=""
+        android:hint="@string/enter_your_phone_number"
+        android:inputType="phone" />
+
+</LinearLayout>

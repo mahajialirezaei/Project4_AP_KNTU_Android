@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="40sp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40sp"
+        android:layout_marginTop="580sp">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/buttonCustomTransfer"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Custom" />
+
+            <Button
+                android:id="@+id/buttonContactTransfer"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Contact Transfer" />
+
+            <Button
+                android:id="@+id/buttonLastTransacion"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Last Transactions" />
+
+            <Button
+                android:id="@+id/buttonTraToDash"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Dashboard" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/chargeToDash"
+        android:layout_width="43dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/back"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/BalanceCharge"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"
+        android:padding="20dp"
+        android:text="Account Balance"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/amountCharge"
+        android:layout_width="277dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:hint="Amount"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/buttonChargeAccount"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Charge Account" />
+
+</LinearLayout>

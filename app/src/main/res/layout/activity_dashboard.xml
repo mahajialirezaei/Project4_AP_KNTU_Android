@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/dashToLogin"
+        android:layout_width="37dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/back"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_back"
+        android:layout_marginBottom="40sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginTop="100dp">
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="80dp">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewBalance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="Account Balance"
+                android:textSize="25sp"
+                android:layout_weight="1" />
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/buttonManageAccount"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:text="@string/account_management" />
+
+            <Button
+                android:id="@+id/buttonRecharge"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:text="@string/charge_account" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/buttonTransferMoney"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:text="Transfer Money" />
+
+            <Button
+                android:id="@+id/buttonInvestmentFunds"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:text="@string/investment_funds" />
+        </TableRow>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableLayout>
+</LinearLayout>

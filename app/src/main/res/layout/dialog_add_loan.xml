@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="400sp"
+    android:layout_marginHorizontal="80sp">
+
+    <EditText
+        android:id="@+id/amountloan"
+        android:layout_width="match_parent"
+        android:layout_height="67sp"
+        android:autofillHints=""
+        android:hint="enter amount"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/installmentNum"
+        android:layout_width="match_parent"
+        android:layout_height="67sp"
+        android:autofillHints=""
+        android:hint="installmentNum"
+        android:inputType="number"/>
+
+
+    <EditText
+        android:id="@+id/monthloan"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:autofillHints=""
+        android:hint="How months later?"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/typeloan"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:autofillHints=""
+        android:hint="enter loan type"
+        android:inputType="text" />
+
+</LinearLayout>
